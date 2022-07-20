@@ -67,7 +67,15 @@ if(pets > allowedPets){
 // be sure to think through all the scenarios. 
 // console.log `mostPets` after the conditional has run.
 
-// I'm sorry - I don't understand the question.
+let mostPets 
+if (pets >= friendsPets){
+    mostPets=pets
+    console.log('mostPets');
+}
+else if(pets < friendsPets){
+    mostPets=friendsPets
+    console.log('mostPets');
+}
 
 // 17 - Write a *switch* statement that logs:
 //      "First is the worst" if your lucky number is 1
